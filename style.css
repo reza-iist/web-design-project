@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+}
+.head{
+    background: rgb(135, 241, 204);
+    height: 100px;
+}
+.logo{
+    float:left;
+    padding: 10px;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    padding-top: 30px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    
+}
+.logo p{
+    font-size: 30px;
+    float: right;
+    padding: 20px;
+    color: red;
+}
+/* header Part End */
+/* Bannner Part Start */
+.banner img{
+width: 100%;
+height: 400px;
+}
+/* Bannner Part End */
+/* Title part start */
+.title h4{
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    background: teal;
+    color: red;
+}
+/* Title part end */
+/* Srevices Box Start */
+.services-box{
+    background: rgb(247, 147, 147);
+    overflow: hidden;
+}
+.singular-service{
+    width: 360px;
+    padding: 20px;
+    float: left;
+}
+.singular-service img{
+    width: 100%;
+    display: block;
+}
+.singular-service h1{
+    padding: 10px;
+    text-align: center;
+}
+.singular-service p{
+    padding: 10px;
+}
+.singular-service a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    background:red;
+    color: #fff;
+    border-radius: 10px;
+}
+/* Srevices Box End */
+/* Footer part start */
+.footer-box{
+    width: 359px;
+    float: left;
+    background: teal;
+    padding: 20px;
+    border-right: 1px solid #fff;
+    height: 120px;
+}
+.footer-box-title{
+    text-align: center;
+    color: rgb(16, 250, 7);
+    margin-bottom: 10px;
+}
+.footer-box-cont{
+    padding-left: 60px;
+    color: #fff;
+    font-size: 20px;
+}
+.footer-box-cont img{
+    height: 20px;
+    width: 20px;
+}
+.footer-box-cont a{
+    color: rgb(13, 251, 61);
+    text-decoration: none;
+}
+.footer-end{
+    padding: 10px;
+    background: rgb(116, 241, 120);
+    text-align: center;
+}
+/* Footer part end */
